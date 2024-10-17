@@ -52,6 +52,7 @@ android {
 dependencies {
 
     implementation(libs.androidx.core.ktx)
+    implementation("com.airbnb.android:lottie-compose:6.5.0")
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
